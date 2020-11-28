@@ -10,7 +10,7 @@ on:
     types: started
 jobs:
   run-it:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04.5
     name: E5-Rclone-Actions
     steps:
       - name: Checkout master
